@@ -1,0 +1,33 @@
+.autocomplete {
+  width: 300px;
+}
+.autocomplete input {
+  width: 100%;
+  padding: 10px 5px;
+  box-sizing: border-box;
+}
+.autocomplete .dropdown {
+  border: 1px solid #cccccc;
+  background: aliceblue;
+}
+.autocomplete .dropdown ul {
+  padding-inline-start: 0;
+  margin: 0;
+  list-style: none;
+}
+.autocomplete .dropdown ul li {
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 5px;
+}
+.autocomplete .dropdown ul li:last-child {
+  border: none;
+}
+.autocomplete .dropdown ul li:hover {
+  background: azure;
+  cursor: pointer;
+}
+.autocomplete .dropdown .empty {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
